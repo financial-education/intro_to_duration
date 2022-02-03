@@ -40,7 +40,7 @@ Duration can be thought of as the weighted average of when the bondholder receiv
 -  This will give you an intuitive understanding of how these variables affect duration.  
 
 #+begin_export html
-<iframe src="https://micfm.shinyapps.io/duration_app1/"></iframe>
+<iframe src="https://micfm.shinyapps.io/duration_app1/" width="100%"></iframe>
 #+end_export
 
 #+begin_comment
@@ -92,10 +92,13 @@ With the following app, you can set the maximum yield-to-maturity, and time to m
 
 -  Can you see the case where duration is decreasing with an increased time to maturity?
 
+#+begin_export html
+<iframe src="https://micfm.shinyapps.io/duration_app2/" width="100%"></iframe>
+#+end_export
  
+#+begin_comment
 
-*  <!--- Bond Price and Duration -->
-
+<!--- Bond Price and Duration -->
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, fig.width = 4, fig.height = 4}
 #{{{
@@ -152,7 +155,7 @@ renderScatterplotThree({
     
 #}}}
 ```
- 
+#+end_comment 
 
 * Calculating Duration
 
@@ -239,9 +242,13 @@ You can also use the following app to see duration decrease when maturity increa
 
 - Set the coupon to 3\%, the YTM to 18\%, and increase years to maturity from 17. 
 
+#+begin_export html
+<iframe src="https://micfm.shinyapps.io/duration_app3/" width="100%"></iframe>
+#+end_export
  
+#+begin_comment
 
-* Modified Duration Calculation 
+ Modified Duration Calculation 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 #{{{
@@ -286,6 +293,7 @@ sidebarLayout(
 	      )
 #}}}
 ```
+#+end_comment
  
 
 * Using Modified Duration
