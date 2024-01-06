@@ -40,6 +40,8 @@ Duration can be thought of as the weighted average of when the bondholder receiv
 
 -  This will give you an intuitive understanding of how these variables affect duration.  
 
+If you can't see the whole app in the iframe window below, you can go to the app here: [[https://ztranche.com/duration_intro/duration_app1/][https://ztranche.com/duration_intro/duration_app1/]]
+
 #+begin_export html
 <div class="container">
 <iframe src="https://ztranche.com/duration_intro/duration_app1/" class="app"></iframe>
@@ -227,7 +229,7 @@ Say we have a 5% coupon bond with annual payments and 8 years until maturity.  L
 
 The bond's price is: $P = \$50\frac{1-1/(1.03)^8}{0.03} + \frac{\$1000}{(1.03)^8} = \$1140.39$
 
-$Macaulay\ Duration = \sum_{i = 1}^7 {(i)\frac{\left(\frac{50}{(1.03)^i}\right)}{\$1140.39}} + 8\frac{\left(\frac{1050}{1.03^8}\right)}{\$1140.39} = 6.87\ yrs$
+$$Macaulay\ Duration = \sum_{i = 1}^7 {(i)\frac{\left(\frac{50}{(1.03)^i}\right)}{\$1140.39}} + 8\frac{\left(\frac{1050}{1.03^8}\right)}{\$1140.39} = 6.87\ yrs$$
    
 $Modified\ Duration = \frac{6.87}{1.03} = 6.67\ yrs$
 
