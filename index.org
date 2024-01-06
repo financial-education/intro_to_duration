@@ -40,7 +40,9 @@ Duration can be thought of as the weighted average of when the bondholder receiv
 
 -  This will give you an intuitive understanding of how these variables affect duration.  
 
-If you can't see the whole app in the iframe window below, you can go to the app here: [[https://ztranche.com/duration_intro/duration_app1/][https://ztranche.com/duration_intro/duration_app1/]]
+#+begin_quote
+If you can't see the whole app in the iframe window below, [[https://ztranche.com/duration_intro/duration_app1/][you can go to the app here.]]
+#+end_quote
 
 #+begin_export html
 <div class="container">
@@ -96,6 +98,10 @@ With the following app, you can set the maximum yield-to-maturity, and time to m
 -  How does increasing the bond's coupon rate affect duration?
 
 -  Can you see the case where duration is decreasing with an increased time to maturity?
+
+#+begin_quote
+If you can't see the whole app in the iframe window below, [[https://ztranche.com/duration_intro/duration_app2/][you can go to the app here.]]
+#+end_quote
 
 #+begin_export html
 <div class="container">
@@ -227,11 +233,13 @@ $Modified\ Duration = \frac{Maucaulay\ Duration}{(1+YTM)}$
 
 Say we have a 5% coupon bond with annual payments and 8 years until maturity.  Let the bond's YTM be 3%.  
 
-The bond's price is: $P = \$50\frac{1-1/(1.03)^8}{0.03} + \frac{\$1000}{(1.03)^8} = \$1140.39$
+The bond's price is:
+
+$$P = \$50\frac{1-1/(1.03)^8}{0.03} + \frac{\$1000}{(1.03)^8} = \$1140.39$$
 
 $$Macaulay\ Duration = \sum_{i = 1}^7 {(i)\frac{\left(\frac{50}{(1.03)^i}\right)}{\$1140.39}} + 8\frac{\left(\frac{1050}{1.03^8}\right)}{\$1140.39} = 6.87\ yrs$$
    
-$Modified\ Duration = \frac{6.87}{1.03} = 6.67\ yrs$
+$$Modified\ Duration = \frac{6.87}{1.03} = 6.67\ yrs$$
 
  
 
@@ -239,15 +247,19 @@ $Modified\ Duration = \frac{6.87}{1.03} = 6.67\ yrs$
 
 Calculate the Macaulay and Modified Durations for the following bonds.  You can check your answers with the interactive app on the following slide. All bonds have annual payments in the interactive app.
 
-- A 15\% coupon bond with 20 years to maturity and a 3\% YTM.
+- A 15% coupon bond with 20 years to maturity and a 3% YTM.
 
-- A 4\% coupon bond with 10 years to maturity and a 7\% YTM.
+- A 4% coupon bond with 10 years to maturity and a 7% YTM.
 
-- A 0\% coupon bond with 10 years to maturity and a 2\% YTM.
+- A 0% coupon bond with 10 years to maturity and a 2% YTM.
 
 You can also use the following app to see duration decrease when maturity increases.
 
-- Set the coupon to 3\%, the YTM to 18\%, and increase years to maturity from 17. 
+- Set the coupon to 3%, the YTM to 18%, and increase years to maturity from 17.
+
+#+begin_quote
+If you can't see the whole app in the iframe window below, [[https://ztranche.com/duration_intro/duration_app3/][you can go to the app here.]]
+#+end_quote
 
 #+begin_export html
 <div class="container">
