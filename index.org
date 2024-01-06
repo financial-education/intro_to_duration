@@ -46,7 +46,7 @@ If you can't see the whole app in the iframe window below, [[https://ztranche.co
 
 #+begin_export html
 <div class="container">
-<iframe src="https://ztranche.com/duration_intro/duration_app1/" class="app"></iframe>
+<iframe src="https://ztranche.com/duration_intro/duration_app1/" class="app" allowfullscreen></iframe>
 </div>
 #+end_export
 
@@ -174,7 +174,11 @@ renderScatterplotThree({
 
 Duration is the slope of the line tangent to the bond's price at the bond's present YTM.  
 
-- Remembering our calculus, we immediately see we need to calculate the derivative of the bond's price with respect to the YTM. See [this video](https://www.youtube.com/watch?v=B2lYw4HJU-I) for a complete derivation.
+- Remembering our calculus, we immediately see we need to calculate the derivative of the bond's price with respect to the YTM. See the video below for a complete derivation:
+
+#+begin_export html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B2lYw4HJU-I?si=ODeOA9pT9YnGWE7y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+#+end_export
 
 However, it is customary to first calculate what is called Maucaulay Duration, and then use this to calculate Modified Duration.
 
