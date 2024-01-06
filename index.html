@@ -3,7 +3,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-<!-- 2024-01-06 Sat 15:51 -->
+<!-- 2024-01-06 Sat 18:42 -->
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>An Introduction to Duration</title>
@@ -15,6 +15,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
 <script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<link rel="stylesheet" type="text/css" href="style1.css" />
 <script>
   window.MathJax = {
     tex: {
@@ -55,26 +56,26 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#org31b5e4f">1. Duration</a></li>
-<li><a href="#orgaf9447f">2. Duration is Approximate</a></li>
-<li><a href="#orge53f52c">3. Determinants of Duration</a></li>
-<li><a href="#org737b395">4. Average of Time Payments are Received</a></li>
-<li><a href="#org59a55f5">5. Interactive App</a></li>
-<li><a href="#org1e02ffb">6. Calculating Duration</a></li>
-<li><a href="#org6160c80">7. Using Duration</a></li>
-<li><a href="#org0ebb9e4">8. Macaulay Duration</a></li>
-<li><a href="#org7049b79">9. Macaulay Duration</a></li>
-<li><a href="#org5e1edd7">10. Modified Duration</a></li>
-<li><a href="#org9b83fd1">11. Simple Example</a></li>
-<li><a href="#org3504c3d">12. Now You Try</a></li>
-<li><a href="#org4c6fb47">13. Using Modified Duration</a></li>
-<li><a href="#org68849ef">14. Improving on Duration</a></li>
+<li><a href="#orgc3f6236">1. Duration</a></li>
+<li><a href="#org4ae6ebb">2. Duration is Approximate</a></li>
+<li><a href="#orga4f3260">3. Determinants of Duration</a></li>
+<li><a href="#org718098e">4. Average of Time Payments are Received</a></li>
+<li><a href="#orgbbb133a">5. Interactive App</a></li>
+<li><a href="#org8916ce2">6. Calculating Duration</a></li>
+<li><a href="#org84d4251">7. Using Duration</a></li>
+<li><a href="#org2d432fa">8. Macaulay Duration</a></li>
+<li><a href="#org76709ee">9. Macaulay Duration</a></li>
+<li><a href="#orgda35abc">10. Modified Duration</a></li>
+<li><a href="#org5d47ebb">11. Simple Example</a></li>
+<li><a href="#org3a8095b">12. Now You Try</a></li>
+<li><a href="#orged31e08">13. Using Modified Duration</a></li>
+<li><a href="#org6ec83e6">14. Improving on Duration</a></li>
 </ul>
 </div>
 </div>
 
-<div id="outline-container-org31b5e4f" class="outline-2">
-<h2 id="org31b5e4f"><span class="section-number-2">1.</span> Duration</h2>
+<div id="outline-container-orgc3f6236" class="outline-2">
+<h2 id="orgc3f6236"><span class="section-number-2">1.</span> Duration</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 Duration is a measure of interest-rate risk. Or, stated differently, duration is a measure of how sensitive the price of a fixed-income instrument is to interest-rate changes.
@@ -98,8 +99,8 @@ Duration is quoted in "years."
 </div>
 </div>
 
-<div id="outline-container-orgaf9447f" class="outline-2">
-<h2 id="orgaf9447f"><span class="section-number-2">2.</span> Duration is Approximate</h2>
+<div id="outline-container-org4ae6ebb" class="outline-2">
+<h2 id="org4ae6ebb"><span class="section-number-2">2.</span> Duration is Approximate</h2>
 <div class="outline-text-2" id="text-2">
 <p>
 Duration is a linear approximation of a nonlinear relationship.
@@ -112,8 +113,8 @@ Duration is a linear approximation of a nonlinear relationship.
 </div>
 </div>
 
-<div id="outline-container-orge53f52c" class="outline-2">
-<h2 id="orge53f52c"><span class="section-number-2">3.</span> Determinants of Duration</h2>
+<div id="outline-container-orga4f3260" class="outline-2">
+<h2 id="orga4f3260"><span class="section-number-2">3.</span> Determinants of Duration</h2>
 <div class="outline-text-2" id="text-3">
 <p>
 Duration is affected by the bond's coupon rate, yield to maturity, and the amount of time to maturity.
@@ -126,13 +127,13 @@ Duration is affected by the bond's coupon rate, yield to maturity, and the amoun
 </ul>
 
 <p>
-For a review of bond coupon rates and yields see these presentations: [An Introduction to Bond Valuation](<a href="https://micfm.shinyapps.io/intro_bond_valuation">https://micfm.shinyapps.io/intro_bond_valuation</a>); [For What is the Yield-to-Maturity Used?](<a href="https://micfm.shinyapps.io/For_What_YTM_Used/">https://micfm.shinyapps.io/For_What_YTM_Used/</a>).
+For a review of bond coupon rates and yields see these presentations: [An Introduction to Bond Valuation](<a href="https://financial-education.github.io/intro_to_bond_valuation">https://financial-education.github.io/intro_to_bond_valuation</a>); [For What is the Yield-to-Maturity Used?](<a href="https://micfm.shinyapps.io/For_What_YTM_Used/">https://micfm.shinyapps.io/For_What_YTM_Used/</a>).
 </p>
 </div>
 </div>
 
-<div id="outline-container-org737b395" class="outline-2">
-<h2 id="org737b395"><span class="section-number-2">4.</span> Average of Time Payments are Received</h2>
+<div id="outline-container-org718098e" class="outline-2">
+<h2 id="org718098e"><span class="section-number-2">4.</span> Average of Time Payments are Received</h2>
 <div class="outline-text-2" id="text-4">
 <p>
 Duration can be thought of as the weighted average of when the bondholder receives payment.  The weights are the proportion of the bond's total value received in each period. 
@@ -144,14 +145,16 @@ Duration can be thought of as the weighted average of when the bondholder receiv
 <li>This will give you an intuitive understanding of how these variables affect duration.</li>
 </ul>
 
-<iframe src="https://ztranche.com/duration_intro/duration_app1/" width="100%" height="100%"></iframe>
+<div class="container">
+<iframe src="https://ztranche.com/duration_intro/duration_app1/" class="app"></iframe>
 </div>
 </div>
+</div>
 
 
 
-<div id="outline-container-org59a55f5" class="outline-2">
-<h2 id="org59a55f5"><span class="section-number-2">5.</span> Interactive App</h2>
+<div id="outline-container-orgbbb133a" class="outline-2">
+<h2 id="orgbbb133a"><span class="section-number-2">5.</span> Interactive App</h2>
 <div class="outline-text-2" id="text-5">
 <p>
 With the following app, you can set the maximum yield-to-maturity, and time to maturity, and see the resulting 3D duration surface.  You can also change the coupon rate and see the effect on the duration surface.
@@ -167,12 +170,14 @@ With the following app, you can set the maximum yield-to-maturity, and time to m
 <li>Can you see the case where duration is decreasing with an increased time to maturity?</li>
 </ul>
 
-<iframe src="https://ztranche.com/duration_intro/duration_app2/" width="100%" height="100%"></iframe>
+<div class="container">
+<iframe src="https://ztranche.com/duration_intro/duration_app2/" class="app"></iframe>
+</div>
 </div>
 </div>
 
-<div id="outline-container-org1e02ffb" class="outline-2">
-<h2 id="org1e02ffb"><span class="section-number-2">6.</span> Calculating Duration</h2>
+<div id="outline-container-org8916ce2" class="outline-2">
+<h2 id="org8916ce2"><span class="section-number-2">6.</span> Calculating Duration</h2>
 <div class="outline-text-2" id="text-6">
 <p>
 Duration is the slope of the line tangent to the bond's price at the bond's present YTM.  
@@ -196,8 +201,8 @@ However, it is customary to first calculate what is called Maucaulay Duration, a
 
 
 
-<div id="outline-container-org6160c80" class="outline-2">
-<h2 id="org6160c80"><span class="section-number-2">7.</span> Using Duration</h2>
+<div id="outline-container-org84d4251" class="outline-2">
+<h2 id="org84d4251"><span class="section-number-2">7.</span> Using Duration</h2>
 <div class="outline-text-2" id="text-7">
 <p>
 Specifically, the common steps in calculating and using duration are: 
@@ -215,8 +220,8 @@ Specifically, the common steps in calculating and using duration are:
 
 
 
-<div id="outline-container-org0ebb9e4" class="outline-2">
-<h2 id="org0ebb9e4"><span class="section-number-2">8.</span> Macaulay Duration</h2>
+<div id="outline-container-org2d432fa" class="outline-2">
+<h2 id="org2d432fa"><span class="section-number-2">8.</span> Macaulay Duration</h2>
 <div class="outline-text-2" id="text-8">
 <p>
 Let \(BP\) be the bond price, \(CF_i\) the cash flow from the bond in period \(i\), and \(n\) the number of periods until maturity. Say the par value is \$1000.  Then Macaulay Duration is:
@@ -238,8 +243,8 @@ Note that since \(BP = \sum_{i = 1}^n {\frac{CF_i}{(1+YTM)^i}}\) the second term
 
 
 
-<div id="outline-container-org7049b79" class="outline-2">
-<h2 id="org7049b79"><span class="section-number-2">9.</span> Macaulay Duration</h2>
+<div id="outline-container-org76709ee" class="outline-2">
+<h2 id="org76709ee"><span class="section-number-2">9.</span> Macaulay Duration</h2>
 <div class="outline-text-2" id="text-9">
 <p>
 From our definition above, we can make the following observations:
@@ -258,8 +263,8 @@ Also note, we can calculate the duration of a bond portfolio as the weighted ave
 
 
 
-<div id="outline-container-org5e1edd7" class="outline-2">
-<h2 id="org5e1edd7"><span class="section-number-2">10.</span> Modified Duration</h2>
+<div id="outline-container-orgda35abc" class="outline-2">
+<h2 id="orgda35abc"><span class="section-number-2">10.</span> Modified Duration</h2>
 <div class="outline-text-2" id="text-10">
 <p>
 As mentioned above, Macaulay Duration is a bit different than the derivative value we want.  We can adjust it by dividing it by \((1+YTM)\).  
@@ -277,8 +282,8 @@ The result (Modified Duration) then matches the derivative of the bond's price w
 
 
 
-<div id="outline-container-org9b83fd1" class="outline-2">
-<h2 id="org9b83fd1"><span class="section-number-2">11.</span> Simple Example</h2>
+<div id="outline-container-org5d47ebb" class="outline-2">
+<h2 id="org5d47ebb"><span class="section-number-2">11.</span> Simple Example</h2>
 <div class="outline-text-2" id="text-11">
 <p>
 Say we have a 5% coupon bond with annual payments and 8 years until maturity.  Let the bond's YTM be 3%.  
@@ -300,8 +305,8 @@ $Macaulay\ Duration = &sum;<sub>i = 1</sub><sup>7</sup> {(i)\frac{\left(\frac{50
 
 
 
-<div id="outline-container-org3504c3d" class="outline-2">
-<h2 id="org3504c3d"><span class="section-number-2">12.</span> Now You Try</h2>
+<div id="outline-container-org3a8095b" class="outline-2">
+<h2 id="org3a8095b"><span class="section-number-2">12.</span> Now You Try</h2>
 <div class="outline-text-2" id="text-12">
 <p>
 Calculate the Macaulay and Modified Durations for the following bonds.  You can check your answers with the interactive app on the following slide. All bonds have annual payments in the interactive app.
@@ -323,13 +328,15 @@ You can also use the following app to see duration decrease when maturity increa
 <li>Set the coupon to 3\%, the YTM to 18\%, and increase years to maturity from 17.</li>
 </ul>
 
-<iframe src="https://ztranche.com/duration_intro/duration_app3/" width="100%" height="100%"></iframe>
+<div class="container">
+<iframe src="https://ztranche.com/duration_intro/duration_app3/" class="app"></iframe>
+</div>
 </div>
 </div>
 
 
-<div id="outline-container-org4c6fb47" class="outline-2">
-<h2 id="org4c6fb47"><span class="section-number-2">13.</span> Using Modified Duration</h2>
+<div id="outline-container-orged31e08" class="outline-2">
+<h2 id="orged31e08"><span class="section-number-2">13.</span> Using Modified Duration</h2>
 <div class="outline-text-2" id="text-13">
 <p>
 We use Modified Duration to approximate the change in the bond's price for a give change in yield.  In terms of percent, we can say:
@@ -351,8 +358,8 @@ We use Modified Duration to approximate the change in the bond's price for a giv
 
 
 
-<div id="outline-container-org68849ef" class="outline-2">
-<h2 id="org68849ef"><span class="section-number-2">14.</span> Improving on Duration</h2>
+<div id="outline-container-org6ec83e6" class="outline-2">
+<h2 id="org6ec83e6"><span class="section-number-2">14.</span> Improving on Duration</h2>
 <div class="outline-text-2" id="text-14">
 <p>
 If we want to improve our estimate of the \% change in the bond's price, we can add a convexity adjustment.
@@ -366,7 +373,7 @@ If we want to improve our estimate of the \% change in the bond's price, we can 
 </div>
 <div id="postamble" class="status">
 <p class="author">Author: Matt Brigida, Ph.D.</p>
-<p class="date">Created: 2024-01-06 Sat 15:51</p>
+<p class="date">Created: 2024-01-06 Sat 18:42</p>
 <p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
