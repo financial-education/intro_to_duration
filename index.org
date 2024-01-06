@@ -4,7 +4,7 @@
 
 * Duration
 
-Duration is a measure of interest-rate risk. Or, stated differently, duration is a measure of how sensitive the price of a fixed-income insturment is to interest-rate changes.
+Duration is a measure of interest-rate risk. Or, stated differently, duration is a measure of how sensitive the price of a fixed-income instrument is to interest-rate changes.
 
 When we say, "The duration of the bond is 4 years," we mean:
 
@@ -19,7 +19,7 @@ Duration is quoted in "years."
 Duration is a linear approximation of a nonlinear relationship.
 
 - Duration is more accurate as the change in the interest rate becomes smaller.  
-- The error when using duration to estimate a bond's sensitivity to interest rates is often called [*convexity*](https://micfm.shinyapps.io/convexity/).
+- The error when using duration to estimate a bond's sensitivity to interest rates is often called [[https://financial-education.github.io/convexity/][**convexity**]].
 
 * Determinants of Duration
 
@@ -40,7 +40,7 @@ Duration can be thought of as the weighted average of when the bondholder receiv
 -  This will give you an intuitive understanding of how these variables affect duration.  
 
 #+begin_export html
-<iframe src="https://micfm.shinyapps.io/duration_app1/" width="100%" height="100%"></iframe>
+<iframe src="https://ztranche.com/duration_intro/duration_app1/" width="100%" height="100%"></iframe>
 #+end_export
 
 #+begin_comment
@@ -93,7 +93,7 @@ With the following app, you can set the maximum yield-to-maturity, and time to m
 -  Can you see the case where duration is decreasing with an increased time to maturity?
 
 #+begin_export html
-<iframe src="https://micfm.shinyapps.io/duration_app2/" width="100%" height="100%"></iframe>
+<iframe src="https://ztranche.com/duration_intro/duration_app2/" width="100%" height="100%"></iframe>
 #+end_export
  
 #+begin_comment
@@ -243,7 +243,7 @@ You can also use the following app to see duration decrease when maturity increa
 - Set the coupon to 3\%, the YTM to 18\%, and increase years to maturity from 17. 
 
 #+begin_export html
-<iframe src="https://micfm.shinyapps.io/duration_app3/" width="100%" height="100%"></iframe>
+<iframe src="https://ztranche.com/duration_intro/duration_app3/" width="100%" height="100%"></iframe>
 #+end_export
  
 #+begin_comment
